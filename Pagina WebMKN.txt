@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .services, .portfolio {
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <h1>Mi Portafolio Profesional</h1>
+</header>
+
+<section id="portfolio" class="portfolio">
+    <h2>Portafolio</h2>
+    <p>Aquí puedes incluir una descripción breve de tus proyectos y logros profesionales. También puedes añadir enlaces a proyectos específicos o casos de estudio si lo deseas.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>Servicios de Gestión</h2>
+    <p>Ofrezco asesoramiento especializado en la gestión de canales de YouTube. Mis servicios incluyen:</p>
+    <ul>
+        <li>Optimización de contenido y SEO para YouTube.</li>
+        <li>Estrategias para aumentar la visibilidad y el engagement.</li>
+        <li>Análisis y reporte del rendimiento del canal.</li>
+        <li>Asesoramiento en la creación y edición de contenido.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contacto</h2>
+    <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
