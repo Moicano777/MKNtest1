@@ -22,9 +22,4 @@ Ofrezco asesoramiento especializado en la gestión de canales de YouTube, incluy
 
 Puedes contactarme a través del formulario en la página de contacto de mi sitio web o enviando un correo a [tuemail@example.com](mailto:tuemail@example.com).
 
-## Cómo Usar
 
-1. **Clona o descarga el repositorio:**
-
-   ```bash
-   git clone https://github.com/tu-usuario/miportafolio.git
