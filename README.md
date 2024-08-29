@@ -2,15 +2,13 @@
 
 Bienvenido a mi portafolio profesional. Esta es una página web estática que muestra mi trabajo y los servicios que ofrezco.
 
+
+
 ## Descripción
 
 Esta página web está diseñada para servir como un portafolio profesional y para ofrecer servicios de asesoramiento en la gestión de canales de YouTube. Incluye secciones para el portafolio, servicios y contacto.
 
-## Estructura del Proyecto
 
-- `index.html`: El archivo principal HTML que contiene el contenido y el diseño de la página web.
-- `styles.css`: (Opcional) Archivo CSS para estilos personalizados (si decides crear uno).
-- `scripts.js`: (Opcional) Archivo JavaScript para funcionalidades adicionales (si decides agregarlo).
 
 ## Servicios
 
